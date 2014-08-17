@@ -22,10 +22,13 @@ public:
     int getDenominator() const { return denominator; }
     
     bool isProperFraction(Primes &primes) const;
+    void makeProperFraction(Primes &primes);
     
     bool operator==(const Fraction &rhs) const;
     bool operator<=(const Fraction &rhs) const;
     bool operator<(const Fraction &rhs) const;
+    
+    Fraction &operator*=(const Fraction &rhs);
     
     int operator*(int rhs) const;
 };

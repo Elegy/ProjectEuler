@@ -18,6 +18,9 @@
 #include <list>
 #include <unordered_map>
 #include <unordered_set>
+#include <limits>
+
+bool closeEnough(float a, float b);
 
 int64_t getFactorial(int num);
 

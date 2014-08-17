@@ -5,6 +5,12 @@
 
 #include "Common.h"
 
+
+bool closeEnough(float a, float b)
+{
+    return (fabs(a - b) < std::numeric_limits<float>::epsilon());
+}
+
 std::unordered_map<int, int64_t> factorials;
 int64_t getFactorial(int num)
 {
