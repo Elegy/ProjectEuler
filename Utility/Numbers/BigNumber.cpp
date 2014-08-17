@@ -388,6 +388,42 @@ BigNumber &BigNumber::operator*=(const std::string &rhs)
     return *this;
 }
 
+bool BigNumber::operator==(const BigNumber &rhs) const
+{
+    if(size() != rhs.size())
+        return false;
+    
+    auto i = digits.begin();
+    auto j = rhs.digits.begin();
+    while(i != digits.end())
+    {
+        if(*i++ != *j++)
+            return false;
+    }
+    
+    return true;
+}
+
+bool BigNumber::operator<(const BigNumber &rhs) const
+{
+    if(size() < rhs.size())
+        return true;
+    else if(size() > rhs.size())
+        return false;
+    
+    auto i = digits.begin();
+    auto j = rhs.digits.begin();
+    while(i != digits.end())
+    {
+        if(*i < *j)
+            return true;
+        else if(*i++ > *j++)
+            return false;
+    }
+    
+    return false;
+}
+
 std::unordered_map<int64_t, BigNumber> powers;
 const BigNumber &BigNumber::pow(int64_t base, int64_t exponent)
 {

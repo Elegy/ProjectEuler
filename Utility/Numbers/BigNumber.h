@@ -39,6 +39,9 @@ public:
     BigNumber &operator*=(const BigNumber &rhs);
     BigNumber &operator*=(const std::string &rhs);
     
+    bool operator==(const BigNumber &rhs) const;
+    bool operator<(const BigNumber &rhs) const;
+    
     static const BigNumber &pow(int64_t base, int64_t exponent);
     
     friend std::ostream &operator<<(std::ostream& os, const BigNumber &bigNumber);

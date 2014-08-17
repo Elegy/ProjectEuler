@@ -2,9 +2,6 @@
 //  Problem19.h
 //  ProjectEuler
 //
-//  Created by Nathan Smith on 8/17/14.
-//  Copyright (c) 2014 Elegy Game. All rights reserved.
-//
 
 #ifndef __ProjectEuler__Problem19__
 #define __ProjectEuler__Problem19__

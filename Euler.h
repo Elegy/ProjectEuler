@@ -35,6 +35,7 @@
 #include "Problem26.h"
 #include "Problem27.h"
 #include "Problem28.h"
+#include "Problem29.h"
 #include "Problem30.h"
 #include "Problem31.h"
 #include "Problem32.h"
@@ -116,6 +117,7 @@
         TEST(26, 983) \
         TEST(27, -59231) \
         TEST(28, 669171001) \
+        TEST(29, 9183) \
         TEST(30, 443839) \
         TEST(31, 73682) \
         TEST(32, 45228) \
