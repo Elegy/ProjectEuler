@@ -7,7 +7,7 @@
 
 int main(int argc, const char * argv[])
 {
-    SOLVE(40);
-    //TEST_ALL();
+    //SOLVE(15);
+    TEST_ALL();
     return 0;
 }
