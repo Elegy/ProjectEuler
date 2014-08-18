@@ -52,6 +52,7 @@
 #include "Problem42.h"
 #include "Problem43.h"
 #include "Problem44.h"
+#include "Problem45.h"
 #include "Problem46.h"
 #include "Problem47.h"
 #include "Problem48.h"
@@ -137,6 +138,7 @@
         TEST(42, 162) \
         TEST(43, 16695334890) \
         TEST(44, 5482660) \
+        TEST(45, 1533776805) \
         TEST(46, 5777) \
         TEST(47, 134043) \
         TEST(48, 9110846700) \
