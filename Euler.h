@@ -26,6 +26,7 @@
 #include "Problem14.h"
 #include "Problem15.h"
 #include "Problem16.h"
+#include "Problem17.h"
 #include "Problem19.h"
 #include "Problem20.h"
 #include "Problem21.h"
@@ -112,6 +113,7 @@
         TEST(14, 837799) \
         TEST(15, 137846528820) \
         TEST(16, 1366) \
+        TEST(17, 21124) \
         TEST(19, 171) \
         TEST(20, 648) \
         TEST(21, 31626) \
