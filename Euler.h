@@ -74,6 +74,7 @@
 #include "Problem82.h"
 #include "Problem83.h"
 #include "Problem92.h"
+#include "Problem124.h"
 
 #define SOLVE(x) \
         clock_t t; \
@@ -163,6 +164,7 @@
         TEST(82, 260324) \
         TEST(83, 425185) \
         TEST(92, 8581146) \
+        TEST(124, 21417) \
         std::cout << "Total time:\t" << float(clock() - t) / CLOCKS_PER_SEC << " seconds\n";
 
 #endif /* defined(__ProjectEuler__Euler__) */
