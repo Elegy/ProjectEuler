@@ -25,3 +25,19 @@ void DirectedEdge::print() const
 {
     std::cout << v << " -> " << w << " (" << weight << ")";
 }
+
+bool DirectedEdge::operator<(const DirectedEdge &rhs) const
+{
+    if(v != rhs.v)
+        return (v < rhs.v);
+    
+    if(w != rhs.w)
+        return (w < rhs.w);
+    
+    return (weight < rhs.weight);
+}
+
+bool DirectedEdge::operator==(const DirectedEdge &rhs) const
+{
+    return (v == rhs.v) && (w == rhs.w) && (weight == rhs.weight);
+}

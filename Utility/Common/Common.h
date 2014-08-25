@@ -36,6 +36,7 @@ int alphabeticalValueForCharacter(char c);
 int alphabeticalValue(const std::string &str);
 
 std::vector<char> getDigits(int64_t num, int base = 10);
+int64_t digitsToNumber(std::vector<int>::const_iterator begin, std::vector<int>::const_iterator end);
 int64_t digitsToNumber(std::vector<char>::const_iterator begin, std::vector<char>::const_iterator end);
 int64_t digitsToNumber(std::list<char>::const_iterator begin, std::list<char>::const_iterator end, int count);
 

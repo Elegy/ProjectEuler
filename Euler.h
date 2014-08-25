@@ -70,6 +70,7 @@
 #include "Problem74.h"
 #include "Problem76.h"
 #include "Problem77.h"
+#include "Problem79.h"
 #include "Problem81.h"
 #include "Problem82.h"
 #include "Problem83.h"
@@ -161,6 +162,7 @@
         TEST(74, 402) \
         TEST(76, 190569291) \
         TEST(77, 71) \
+        TEST(79, 73162890) \
         TEST(81, 427337) \
         TEST(82, 260324) \
         TEST(83, 425185) \

@@ -23,6 +23,9 @@ public:
     float getWeight() const { return weight; }
     
     void print() const;
+    
+    bool operator<(const DirectedEdge &rhs) const;
+    bool operator==(const DirectedEdge &rhs) const;
 };
 
 #endif /* defined(__ProjectEuler__DirectedEdge__) */
